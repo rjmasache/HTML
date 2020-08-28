@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Mi primera página web</title>
+</head>
+<body>
+	<h1>Mi primera página web</h1>
+	<h2>Bienvenidos a mi primera página web</h2>
+	<p>
+		Aquí se muestra un párrafo con el contenido de mi página web
+	</p>
+	<p>
+		Aquí se muestra un párrafo con el contenido de mi página web<br>
+		Con un salto de línea
+	</p>
+	<p>
+		Aquí se muestra un párrafo con el contenido de mi página web con un salto de línea pintada<hr>
+	</p>
+	<h3>Más contenido de mi página web</h3>
+	<p>
+		<strong>Se muestra un texto en negrita</strong><br>
+		<em>Se muestra un texto en cursiva</em><br>
+		<i>Se muestra un texto en cursiva con otra etiqueta</i><br>
+		<blockquote>Se muestra un texto en formato de cita</blockquote>
+	</p>
+	<h3>Listas en mi página web</h3>
+	<h4>Listado de frutas ordenado</h4>
+	<!-- Lista ordenada -->
+	<ol>
+		<li>Manzana</li>
+		<!-- Sublista -->
+		<ol>
+			<li>Roja</li>
+			<li>Verde</li>
+		</ol>
+		<li>Naranja</li>
+		<li>Uva</li>
+		<li>Mango</li>
+	</ol>
+	<!-- Lista desordenada -->
+	<h4>Listado de frutas desordenado</h4>
+	<ul>
+		<li>Pera</li>
+		<li>Sandía</li>
+		<li>Fresa</li>
+		<li>Cereza</li>
+	</ul>
+	<h3>Imágenes en mi página web</h3>
+	<img src="imagenes/desarrollo.jpg" alt="Imagen de Desarrollo web" title="Desarrollo web" width="500px" height="300px">
+	<h3>Tablas en mi página web</h3>
+	<table border="1">
+		<tr>
+			<!-- th resalta en negrita el encabezado de la tabla -->
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>País</th>
+		</tr>
+		<tr>
+			<!-- colspan expande la columna de la tabla -->
+			<td>Royer</td>
+			<td>Masache</td>
+			<td>Ecuador</td>
+		</tr>
+	</table>
+	<h3>Formulario en mi página web</h3>
+	<form>
+		<p>
+			<!-- label indica el nombre visual del campo en la página -->
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" placeholder="Ingrese su nombre aquí">
+		</p>
+		<p>
+			<label for="descripcion">Descripcion</label>
+			<textarea name="descripcion"></textarea>
+		</p>
+		<p>
+			<!-- Radiobuttons -->
+			<label for="genero">Género</label><br>
+			<input type="radio" name="genero" value="masculino">Masculino <br>
+			<input type="radio" name="genero" value="femenino">Femenino <br>
+			<input type="radio" name="genero" value="ninguno">Ninguno <br>
+		</p>
+		<p>
+			<!-- Selector -->
+			<label for="ocupacion">Ocupación</label><br>
+			<select name="ocupacion">
+				<option value="docente">Docente</option>
+				<option value="estudiante">Estudiante</option>
+				<option value="ninguno">Ninguno</option>
+			</select>
+		</p>
+		<input type="submit" name="enviar" value="Enviar formulario">
+	</form>
+</body>
+</html>

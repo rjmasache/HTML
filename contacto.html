@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio con páginas web en Inicio</title>
+</head>
+<body>
+	<!-- Encabezado -->
+	<h1>Tecera página</h1>
+	<!-- Menú -->
+	<ul>
+		<li><a href="pagina.html" title="Inicio">Inicio</a></li>
+		<li><a href="contenido.html" title="Segunda página">Contenido</a></li>
+		<li><a href="contacto.html" title="Tercera página">Contacto</a></li>
+	</ul>
+	<hr>
+	<!-- Presentación de Inicio.html -->
+	<h2>Bienvenidos a la tercera página</h2>
+	<h3>Contacto</h3>
+	<form>
+		<p>
+			<label for="nombre">Nombre: </label><br>
+			<input type="text" name="nombre" placeholder="Ingrese su nombre aquí">
+		</p>
+		<p>
+			<label for="descripcion">Descripción</label><br>
+			<textarea name="descripcion" placeholder="Descripción de trabajo"></textarea>
+		</p>
+		<p>
+			<label for="genero">Género: </label><br>
+			<input type="radio" name="genero" value="masculino">Masculino <br>
+			<input type="radio" name="genero" value="femenino">Femenino <br>
+			<input type="radio" name="genero" value="ninguno">Ninguno <br>
+		</p>
+		<p>
+			<label for="seleccion">Ocupación: </label><br>
+			<select name="seleccion">
+				<option value="docente">Docente</option>
+				<option value="estudiante">Estudiante</option>
+				<option value="ninguno">Ninguno</option>
+			</select>
+		</p>
+		<input type="submit" name="Enviar formulario">
+	</form>
+</body>
+</html>
